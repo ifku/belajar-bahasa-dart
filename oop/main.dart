@@ -1,10 +1,11 @@
 import 'Animal.dart';
 import 'Cat.dart';
+import 'Motor.dart';
 import 'dart:io';
 void main(){
-  Animal kucing = Animal("Udin", 2, 4.2);
+  Motor motor_1 = new Motor('Supra', 4);
 
-
-  kucing.eat();
-  kucing.sleep();
+  print(motor_1.nama_motor);
+  print(motor_1.kapasitas_bensin);
+  
 }
